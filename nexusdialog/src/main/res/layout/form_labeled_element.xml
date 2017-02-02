@@ -11,14 +11,20 @@
 
     <TextView
         android:id="@+id/field_label"
-        android:layout_width="100dp"
+        android:layout_width="190dp"
+        android:layout_marginLeft="20dp"
+        android:textColor="#707571"
+        android:textSize="15dp"
         android:layout_height="wrap_content"
         android:layout_weight="0" />
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:orientation="vertical">
+        android:orientation="vertical"
+        android:layout_marginLeft="20dp"
+        android:layout_weight="0.70"
+        android:textSize="15sp" >
 
         <FrameLayout
             android:id="@+id/field_container"
@@ -33,5 +39,4 @@
             android:textColor="#cc0000"
             android:visibility="gone"/>
     </LinearLayout>
-
 </LinearLayout>
