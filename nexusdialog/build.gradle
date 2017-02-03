@@ -14,8 +14,8 @@ repositories {
     jcenter()
 }
 
-version "0.4.1"
-group = "com.github.dkharrat.nexusdialog"
+version "0.4.1.b"
+group = "com.github.mackaber.nexusdialog"
 
 android {
     compileSdkVersion 23
